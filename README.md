@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/rendr-auth-rest-adapter.svg)](http://badge.fury.io/js/rendr-auth-rest-adapter)
 [![Build Status](https://travis-ci.org/pjanuario/rendr-auth-rest-adapter.svg?branch=master)](https://travis-ci.org/pjanuario/rendr-auth-rest-adapter)
 [![Code Climate](https://codeclimate.com/github/pjanuario/rendr-auth-rest-adapter/badges/gpa.svg)](https://codeclimate.com/github/pjanuario/rendr-auth-rest-adapter)
 [![Test Coverage](https://codeclimate.com/github/pjanuario/rendr-auth-rest-adapter/badges/coverage.svg)](https://codeclimate.com/github/pjanuario/rendr-auth-rest-adapter)
