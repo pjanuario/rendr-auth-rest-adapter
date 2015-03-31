@@ -11,6 +11,18 @@ Custom version of the traditional RestAdapter that inherits all its functionalit
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+## Running Specs
+
+    $ npm test
+
+## Coverage Report
+
+We aim for 100% coverage and we hope it keeps that way! :)
+
+Check the report after running npm test.
+
+    $ open ./coverage/lcov-report/index.html
+
 ## Bump versioning
 
 We use [grunt bump package](https://www.npmjs.org/package/grunt-bump) to control package versioning.
@@ -26,18 +38,6 @@ Bump Minor version
 Bump Major version
 
     $ grunt bump:major
-
-## Running Specs
-
-    $ npm test
-
-## Coverage Report
-
-We aim for 100% coverage and we hope it keeps that way! :)
-
-Check the report after running npm test.
-
-    $ open ./coverage/lcov-report/index.html
 
 ## Credits
 
