@@ -7,9 +7,15 @@ before_script:
   - npm install -d
   - npm install grunt-cli
   - npm install codeclimate-test-reporter
+after_success:
+  - codeclimate < ./coverage/lcov.info
 cache:
   directories:
     - node_modules
 branches:
   only:
     - master
+addons:
+  code_climate:
+    repo_token:
+      secure: OCnrBpVBtPn0alfrBlGVGIno/ZPnom3u4MUZbA5UF0JRqyHkAglXDBm8ApJMjF3B8bDQB1HNfuXVQWFcwsqD3o3HAIKPEqBAfTEj+zZg1T42QtcdAUKMsNeaNggj6GzzhYOhH6M/d6N1let37VdDzMLeZr1bhN70B9y146xPYHk=

@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/pjanuario/rendr-auth-rest-adapter.svg?branch=master)](https://travis-ci.org/pjanuario/rendr-auth-rest-adapter)
+[![Code Climate](https://codeclimate.com/github/pjanuario/rendr-auth-rest-adapter/badges/gpa.svg)](https://codeclimate.com/github/pjanuario/rendr-auth-rest-adapter)
+[![Test Coverage](https://codeclimate.com/github/pjanuario/rendr-auth-rest-adapter/badges/coverage.svg)](https://codeclimate.com/github/pjanuario/rendr-auth-rest-adapter)
 [![Dependency Status](https://gemnasium.com/pjanuario/rendr-auth-rest-adapter.svg)](https://gemnasium.com/pjanuario/rendr-auth-rest-adapter)
 
 # rendr-auth-rest-adapter
