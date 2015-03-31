@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/pjanuario/rendr-auth-rest-adapter/issues"
   },
-  "homepage": "https://github.com/pjanuario/rendr-auth-rest-adapter"
+  "homepage": "https://github.com/pjanuario/rendr-auth-rest-adapter",
+  "dependencies": {
+    "rendr": "^1.0.3"
+  }
 }
