@@ -5,7 +5,7 @@ Since the default rendr data adapter doesn't have support for api authentication
 
 ## Supported authentication methods
 
-**Query String: ** It supports appending a query string parameter to the api request.
+**Query String:** It supports appending a query string parameter to the api request.
 
 ## How to use it
 
