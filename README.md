@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/pjanuario/rendr-auth-rest-adapter.svg?branch=master)](https://travis-ci.org/pjanuario/rendr-auth-rest-adapter)
+[![Dependency Status](https://gemnasium.com/pjanuario/rendr-auth-rest-adapter.svg)](https://gemnasium.com/pjanuario/rendr-auth-rest-adapter)
 
 # rendr-auth-rest-adapter
 Since the default rendr data adapter doesn't have support for api authentication, this custom version inherits all the functionality of the traditional [Rendr Rest Adapter]() and also adds support for adding extra information for API authentication.
