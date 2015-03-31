@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 0.10
+  - node
+  - iojs
+before_script:
+  - npm install -d
+  - npm install grunt-cli
+  - npm install codeclimate-test-reporter
+after_success:
+  - codeclimate < ./coverage/lcov.info
+cache:
+  directories:
+    - node_modules
+branches:
+  only:
+    - master
