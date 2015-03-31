@@ -1,7 +1,38 @@
 [![Build Status](https://travis-ci.org/pjanuario/rendr-auth-rest-adapter.svg?branch=master)](https://travis-ci.org/pjanuario/rendr-auth-rest-adapter)
 
 # rendr-auth-rest-adapter
-Custom version of the traditional RestAdapter that inherits all its functionality and also adds support for adding extra parameters for API authentication.
+Since the default rendr data adapter doesn't have support for api authentication, this custom version inherits all the functionality of the traditional [Rendr Rest Adapter]() and also adds support for adding extra information for API authentication.
+
+## Supported authentication methods
+
+**Query String: ** It supports appending a query string parameter to the api request.
+
+## How to use it
+
+Install it
+
+    $ npm install rendr-auth-rest-adapter --save
+
+Configure as a data adapter on rendr server. It expects an auth key on the the adapter configuration, such as:
+
+    // it uses the same data adapter configurations as Rest Adapter plus auth key
+    var dataAdapterConfig = {
+      default: {
+        host: 'github.com',
+        protocol: 'http',
+        auth: {
+          query: { clientId: "something" }
+        }
+      }
+    };
+
+    /**
+     * Initialize our Rendr server.
+     */
+    var server = rendr.createServer({
+      dataAdapter: new ProxyAdapter(dataAdapterConfig)
+    });
+
 
 ## Contributing
 
