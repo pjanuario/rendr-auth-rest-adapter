@@ -1,0 +1,26 @@
+{
+  "name": "rendr-auth-rest-adapter",
+  "version": "1.0.0",
+  "description": "Custom version of the traditional RestAdapter that inherits all its functionality and also adds support for adding extra parameters for API authentication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjanuario/rendr-auth-rest-adapter.git"
+  },
+  "keywords": [
+    "rendr",
+    "auth-rest-adapter",
+    "auth-data-adapter",
+    "rest-adapter",
+    "data-adapter"
+  ],
+  "author": "Pedro Januário <prnjanuario@gmail.com> (http://shared-mind.tumblr.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjanuario/rendr-auth-rest-adapter/issues"
+  },
+  "homepage": "https://github.com/pjanuario/rendr-auth-rest-adapter"
+}
