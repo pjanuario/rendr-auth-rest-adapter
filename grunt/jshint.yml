@@ -1,0 +1,13 @@
+files:
+  - Gruntfile.js
+  - test/**/*.js
+  - index.js
+  - grunt/*.js
+  - grunt/*.json
+  - package.json
+  - npm-shrinkwrap.json
+options:
+  jshintrc: .jsintrc
+  globals:
+    process: false
+    module: false
