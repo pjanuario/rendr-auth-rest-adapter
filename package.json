@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/pjanuario/rendr-auth-rest-adapter",
   "dependencies": {
-    "rendr": "^1.0.3"
+    "rendr": "^1.0.3",
+    "underscore": "^1.8.2"
   }
 }
