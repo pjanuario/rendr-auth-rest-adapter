@@ -1,0 +1,8 @@
+_defaults:
+  fail: true
+
+test:
+  cmd: istanbul cover node_modules/.bin/_mocha -- -R spec --ui bdd ./test --recursive
+
+check-coverage:
+  cmd: istanbul check-coverage

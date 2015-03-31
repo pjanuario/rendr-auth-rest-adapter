@@ -1,0 +1,10 @@
+default:
+  - test
+
+lint:
+  - jshint
+
+test:
+  - lint
+  - bgShell:test
+  - bgShell:check-coverage
