@@ -1,6 +1,6 @@
 {
   "name": "rendr-auth-rest-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom version of the traditional RestAdapter that inherits all its functionality and also adds support for adding extra parameters for API authentication.",
   "main": "index.js",
   "scripts": {
